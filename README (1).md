@@ -1,15 +1,18 @@
-#Data Management - JavaScript
+# Data Management - JavaScript
+
 **Author: Wilson Esteban Delgado Molano
 Clan: Cienaga**
 
 ---
 
-##Project Description
+## Project Description
+
 Training where I put into practice the use of advanced data structures in JavaScript: objects, arrays, and maps. I apply my knowledge to efficiently organize, store, and manipulate data, I did a CRUD, in the context of a inventory
 
 ---
 
-##Technologies Used
+## Technologies Used
+
 HTML5
 CSS3
 JavaScript (Vanilla)
@@ -17,7 +20,8 @@ Vite
 
 ---
 
-##Prerequisites
+## Prerequisites
+
 Before you begin, make sure you have the following programs installed:
 
 Node.js (version 14 or higher)
@@ -27,7 +31,7 @@ Modern browser (Chrome, Firefox, Edge, etc.)
 
 ---
 
-##Installing and Running the Project
+## Installing and Running the Project
 
 Clone the Repository
 First, clone the repository to your local machine:
