@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    opacity: 0.9;
+}
+
+body{
+    background-image: url(../../public/img/background\ image.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, .10);
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 40vh;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0.7;
+    color: white;
+}
+
+.box input {
+    background-color: black;
+    opacity: 0.8;
+    width: 80%;
+    height: 8%;
+    color: white;
+}
+
+.box button {
+    width: 50%;
+    height: 10%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3;
+}
+
+
+.box button:hover {
+    transform: scale(1.1);
+}
+
+.box p {
+    color: white
+}
+
+.table{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, .10);
+    border: solid 1px black;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 100%;
+    color: white; 
+}
+
+    tr { border: solid 1px white;
+    color: black;
+    
+}
+
+    td { border: solid 1px black;
+    color: white;
+    padding: 1%;
+    width: 1%;
+    }
+
+    button {
+        opacity: 0.7;
+        width: 100%;
+        height: 10%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: transform 0.3;
+    }
+
+    button:hover {
+        transform: scale(1.1);
+    }
+footer {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
